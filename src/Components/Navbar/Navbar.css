@@ -12,7 +12,8 @@
   height: 80px;
   position: fixed;
   top: 0;
-  opacity: 1;
+  z-index: 1000;
+  background: var(--primaryColor);
 }
 
 .logo {
@@ -24,7 +25,7 @@
 }
 
 .navList {
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .navItems .nav-anchor {
@@ -44,7 +45,7 @@
 
 .button:hover {
   color: var(--bg-button);
-  background: white;
+  background: var(--primaryColor);
   border: 2px solid var(--bg-button);
 }
 
@@ -52,6 +53,13 @@
 .toggleNavbar {
   display: none;
 }
+
+@media screen and (max-width: 950px) {
+  .navList {
+    gap: 2rem;
+  }
+}
+
 
 @media screen and (max-width: 769px) {
   .header {
@@ -61,7 +69,7 @@
   .navBar {
     position: absolute;
     top: -500px;
-    background: #5d9228ad;
+    background: #b1df83;
     width: 90%;
     border-radius: 3px;
     transition: 0.5s ease-in-out;
