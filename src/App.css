@@ -9,7 +9,7 @@
 
 :root {
     --primaryColor: #f2faea;
-    --textColor: #273a14;
+    --textColor: #496b27;
     --blackTextColor: #0d0c0cc0;
 }
 
@@ -47,3 +47,9 @@ li {
     cursor: pointer;
 }
 
+.button2 {
+    padding: 0.6rem 1.5rem;
+    border: 1px solid var(--textColor);
+    outline: none;
+    cursor: pointer;
+}
