@@ -48,22 +48,22 @@ const Feature = () => {
           </p>
           <ul className="featureContentLinks grid">
             <li>
-              <a href="#">
+              <a href="Track Progress">
                 <BsGraphUp className="icon" /> Track Progress
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="Visual Sales">
                 <GiProgression className="icon" /> Visual Sales
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="Daily Reporting">
                 <BiCalendar className="icon" /> Daily Reporting
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="Revanue Forcasting">
                 <BsFileBarGraph className="icon" /> Revanue Forcasting
               </a>
             </li>
@@ -82,22 +82,22 @@ const Feature = () => {
           </p>
           <ul className="featureContentLinks grid">
             <li>
-              <a href="#">
+              <a href="Marketing Cloud">
                 <BsGraphUp className="icon" /> Marketing Cloud
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="AppConnect">
                 <GiProgression className="icon" /> AppConnect
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="Insightly Marketing">
                 <BiCalendar className="icon" /> Insightly Marketing
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="Build relatioinships">
                 <BsFileBarGraph className="icon" /> Build relatioinships
               </a>
             </li>
