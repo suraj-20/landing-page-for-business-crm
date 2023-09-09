@@ -10,7 +10,7 @@
   width: 100%;
   height: 80vh;
   position: relative;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   background: var(--primaryColor);
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@
   .homeSection {
     justify-content: center;
     height: 100vh;
-    margin-top: 70px;
+    /* margin-top: 70px; */
   }
   
   .homeContainer {
@@ -126,7 +126,7 @@
 
 @media screen and (max-width:425px) {
   .homeSection {
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 
   .homeContainer {
