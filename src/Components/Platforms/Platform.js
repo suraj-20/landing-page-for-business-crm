@@ -1,6 +1,6 @@
 import React from "react";
 import './Platform.css';
-import img1 from '../../Assets/img4.jpg';
+import img1 from '../../Assets/img4.1.png';
 import {AiFillPlayCircle} from 'react-icons/ai';
 
 const Platform = () => {

@@ -57,7 +57,7 @@
 }
 
 .platformImg {
-  width: 40%;
+  width: 30%;
   object-fit: cover;
 }
 
@@ -73,6 +73,10 @@
 
   .platformContent h1 {
     font-size: 2rem;
+  }
+
+  .platformImg {
+    width: 40%;
   }
 }
 
