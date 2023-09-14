@@ -25,7 +25,7 @@ const DoMore = () => {
         <div className="platforms">
           <ul className="platformLists grid">
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#Trello" className="anchor-platform">
                 <img className="doMore-platform-img" src={img1} alt="terllo" />
                 <div className="platformInfo">
                   <h3>Trello</h3>
@@ -34,7 +34,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#Asana" className="anchor-platform">
                 <img className="doMore-platform-img" src={img2} alt="asana" />
                 <div className="platformInfo">
                   <h3>Asana</h3>
@@ -43,7 +43,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#zendesk" className="anchor-platform">
                 <img className="doMore-platform-img" src={img3} alt="zendesk" />
                 <div className="platformInfo">
                   <h3>Zendesk</h3>
@@ -52,7 +52,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#zapier" className="anchor-platform">
                 <img className="doMore-platform-img" src={img4} alt="zapier" />
                 <div className="platformInfo">
                   <h3>Zapier</h3>
@@ -61,7 +61,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#zoom" className="anchor-platform">
                 <img className="doMore-platform-img" src={img5} alt="zoom" />
                 <div className="platformInfo">
                   <h3>Zoom</h3>
@@ -70,7 +70,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#slack" className="anchor-platform">
                 <img className="doMore-platform-img" src={img6} alt="slack" />
                 <div className="platformInfo">
                   <h3>Slack</h3>
@@ -79,7 +79,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#twitter" className="anchor-platform">
                 <img className="doMore-platform-img" src={img7} alt="twiter" />
                 <div className="platformInfo">
                   <h3>Twitter</h3>
@@ -88,7 +88,7 @@ const DoMore = () => {
               </a>
             </li>
             <li className="platformItems">
-              <a className="anchor-platform">
+              <a href="#shopify" className="anchor-platform">
                 <img className="doMore-platform-img" src={img8} alt="shopify" />
                 <div className="platformInfo">
                   <h3>Shopify</h3>
