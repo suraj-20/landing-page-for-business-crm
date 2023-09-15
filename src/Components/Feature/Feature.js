@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Feature.css";
-
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import img1 from "../../Assets/ikea.jpg";
 import img2 from "../../Assets/Google-Logo.wine.svg";
 import img3 from "../../Assets/1280px-GoDaddy_logo.svg.png";
 import img4 from "../../Assets/yahoo.svg";
 
 const Feature = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="featureSection">
       <div className="featuredinSection">
-        <h3 className="featureHeading">Featured in</h3>
-        <div className="companySection">
+        <h3 data-aos="fade-up" className="featureHeading">
+          Featured in
+        </h3>
+        <div data-aos="fade-up" className="companySection">
           <ul className="companyLogo grid">
             <li className="listItems">
               <img src={img1} alt="IKEA" />
@@ -29,8 +35,6 @@ const Feature = () => {
           </ul>
         </div>
       </div>
-
-      
     </section>
   );
 };

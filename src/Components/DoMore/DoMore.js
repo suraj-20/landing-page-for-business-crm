@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./DoMore.css";
 
 import img1 from "../../Assets/trello logo.png";
@@ -10,11 +10,17 @@ import img6 from "../../Assets/slack.png";
 import img7 from "../../Assets/twitter.png";
 import img8 from "../../Assets/sopify logo.webp";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const DoMore = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="doMoreSection">
       <div className="doMoreContainer">
-        <div className="doMoreHeading">
+        <div data-aos="fade-up" className="doMoreHeading">
           <h2>Do More with Add-Ons</h2>
           <p>
             Connect your favorite tools and find new Add-Ons.
@@ -23,7 +29,7 @@ const DoMore = () => {
           </p>
         </div>
         <div className="platforms">
-          <ul className="platformLists grid">
+          <ul data-aos="fade-up" data-aos-duration="5000" className="platformLists grid">
             <li className="platformItems">
               <a href="#Trello" className="anchor-platform">
                 <img className="doMore-platform-img" src={img1} alt="terllo" />

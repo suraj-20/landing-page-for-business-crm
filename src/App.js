@@ -5,6 +5,7 @@ import Feature from "./Components/Feature/Feature";
 import Main from "./Components/Main/Main";
 import Platform from "./Components/Platforms/Platform";
 import DoMore from "./Components/DoMore/DoMore";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Main />
       <DoMore />
       <Platform />
+      <Footer />
     </>
   );
 }

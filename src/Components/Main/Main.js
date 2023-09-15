@@ -1,23 +1,28 @@
-import React from "react";
-import './Main.css'
+import React, { useEffect } from "react";
+import "./Main.css";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { BsGraphUp } from "react-icons/bs";
 import { GiProgression } from "react-icons/gi";
 import { BiCalendar } from "react-icons/bi";
 import { BsFileBarGraph } from "react-icons/bs";
 
-
 import img1 from "../../Assets/img 6.png";
-import img2 from '../../Assets/img7.png.jpg'
+import img2 from "../../Assets/img7.png.jpg";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Main = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="mainSection">
       <div className="mainSection1 flex">
-        <div className="featureImg">
+        <div data-aos="fade-right" className="featureImg">
           <img src={img1} alt="FeatureImage" />
         </div>
-        <div className="featureContent">
+        <div data-aos="fade-right" className="featureContent">
           <h1>Intuitive CRM to get you conversions</h1>
           <p>
             With intuitive features, making eiza CRM supeiror to many similar
@@ -52,7 +57,7 @@ const Main = () => {
       </div>
 
       <div className="mainSection2 flex">
-        <div className="featureContent featureContent2">
+        <div data-aos="fade-left" className="featureContent featureContent2">
           <h1>Integrate, collaborate, and grow with eizaCRM</h1>
           <p>
             With cloud features, make sure your business can collaborate easly.
@@ -83,7 +88,7 @@ const Main = () => {
             Get Free Trail <BsFillArrowRightCircleFill className="icon" />
           </button>
         </div>
-        <div className="featureImg featureImg2">
+        <div data-aos="fade-left" className="featureImg featureImg2">
           <img src={img2} alt="FeatureImage" />
         </div>
       </div>
